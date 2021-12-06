@@ -17,3 +17,4 @@ spec:
   selector:
     app.kubernetes.io/name: {{ include "livy.name" . }}
     app.kubernetes.io/instance: {{ .Release.Name }}
+    app.kubernetes.io/os: linux
